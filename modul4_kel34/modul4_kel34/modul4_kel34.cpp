@@ -22,7 +22,7 @@ int main()
             return_func(1);
     }*/
 
-class MyClass {
+class myClass {
 public:
     void non_return_method(string kelompok) {
         cout << "Halo, kami dari kelompok " << kelompok;
@@ -32,7 +32,7 @@ public:
     }
 };
 int main() {
-    MyClass myObj;
+    myClass myObj;
     myObj.non_return_method("100");
     cout << "\nhasil kali 100 dengan 100 adalah " <<
         myObj.with_return_method(100);
